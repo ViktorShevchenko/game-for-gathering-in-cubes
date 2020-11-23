@@ -1,0 +1,77 @@
+body {
+  min-height: 100vh;
+}
+
+.modal {
+  background-color: rgba(1,1,1,.5);
+}
+
+.modal-active {
+  display: block;
+}
+
+.points {
+  width: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.scoreboard, .timeboard {
+  width: 5rem;
+  height: 2.5rem;
+  text-align:center;
+  padding-top: 6px;
+}
+
+.timeleft {
+  width: 6rem;
+}
+
+.row_fields {
+  height:70vh;
+}
+
+.progressbar1 {
+  width: 25%;
+}
+
+.progressbar2 {
+  width: 50%;
+}
+
+.progressbar3 {
+  width: 75%;
+}
+
+.progressbar4 {
+  width: 100%;
+}
+
+.playground {
+  position: relative;
+}
+
+.playground, .results {
+  height:100%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    height: 12px;
+    padding: 8px;
+}
+th, td {
+      text-align: center;
+}
+
+
+/* POPUP */
+
+.modal-dialog {
+    max-width: 300px;
+}
